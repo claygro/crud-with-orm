@@ -1,6 +1,6 @@
 import express from "express";
-import routes from "./routes/users.routes.js";
-import connection from "./models/connection.models.js";
+import routes from "./src/routes/users.routes.js";
+import connection from "./src/models/connection.models.js";
 import "dotenv/config";
 const app = express();
 app.use(express.json());
